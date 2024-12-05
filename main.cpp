@@ -20,17 +20,14 @@ int main () {
   Student* sophia = new Student(sw, 11, 4.0);
   Student* julia = new Student(jl, 10, 4.0);
   Student* allie = new Student(aw, 11, 3.5);
-  
+
+  // display students after adding each time
+  // it works :)
   add(sophia, head);
-
   print(head, head);
-  
   add(julia, head);
-
   print(head, head);
-  
   add(allie, head);
-
   print(head, head);
   
   return 0;
